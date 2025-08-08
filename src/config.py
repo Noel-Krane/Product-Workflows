@@ -71,11 +71,17 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
-        case_sensitive = False
 
 
 # Global settings instance
-settings = Settings()
+_settings = None
+
+def get_settings() -> Settings:
+    """Get global settings instance"""
+    global _settings
+    if _settings is None:
+        _settings = Settings()
+    return _settings
 
 
 # Model cost mapping (USD per 1K tokens)

@@ -1,6 +1,6 @@
-# AI Research Platform
+# Product-Workflows: AI Research Platform
 
-A multi-agent platform for strategic business research with comprehensive observability, designed to perform deep competitive analysis using established business frameworks.
+A multi-agent platform for strategic business research with comprehensive observability, designed to perform deep competitive analysis using established business frameworks. Part of automated workflows that help with product-related tasks.
 
 ## Features
 
